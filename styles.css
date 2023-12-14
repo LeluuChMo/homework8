@@ -1,0 +1,22 @@
+* {
+    padding: 12px;
+}
+body {
+    font-family: Bebas Neue, serif;
+}
+h1 {
+    color:grey;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+span {
+    background-color: #BD3E44;
+    color: white;
+    border-radius: 41%;
+}
