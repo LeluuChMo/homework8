@@ -5,7 +5,6 @@ body {
     font-family: Bebas Neue, serif;
 }
 h1 {
-    color:#FFD100;
     text-align: center;
     font-size: 50px;
     margin: 0;
@@ -21,6 +20,7 @@ span {
     border-radius: 41%;
 }
 .header1{
+    color:#FFD100;
     animation-name: header1;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -39,22 +39,21 @@ span {
     }
 }
 .header2 {
-    animation-name: header2;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-delay: 0.2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+      color:#BD3E44;
+      display: inline-block;
+      white-space: nowrap;
+      animation: header2 5s linear infinite;
 }
 @keyframes header2 {
     0% {
-      background-color: #BD3E44;
-    }
-    100% {
-        background-color: white;
-    }
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%);
+      }
 }
 .header3 {
+    color: #FFD100;
     animation-name: header3;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -70,4 +69,3 @@ span {
       background-color: #003399;
     }
 }
-
